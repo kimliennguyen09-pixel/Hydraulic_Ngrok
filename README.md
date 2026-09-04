@@ -24,8 +24,7 @@ python api.py
 ```
 
 Mở `http://127.0.0.1:8000`.
-
-## Chạy bằng ngrok (Windows PowerShell)
+# Chạy bằng ngrok (Windows PowerShell)
 https://sermon-strict-handbag.ngrok-free.dev/
 
 
