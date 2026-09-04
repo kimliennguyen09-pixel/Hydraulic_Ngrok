@@ -1,0 +1,1 @@
+const API={async get(path){const r=await fetch(path);if(!r.ok)throw new Error(`API ${r.status}`);return r.json()},summary(){return this.get('/api/summary')},nodes(params=''){return this.get('/api/nodes'+params)},charts(){return this.get('/api/charts')},node(id){return this.get('/api/nodes/'+encodeURIComponent(id))}};
