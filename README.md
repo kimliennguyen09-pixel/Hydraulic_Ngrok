@@ -25,8 +25,8 @@ python api.py
 
 Mở `http://127.0.0.1:8000`.
 
-# Chạy bằng ngrok (Windows PowerShell)
+## Chạy bằng ngrok (Windows PowerShell)
 https://sermon-strict-handbag.ngrok-free.dev/
 
-# Rule
+## Rule
 Quy tắc cảnh báo: Nguy cấp khi có tràn/ngập hoặc HGL vượt nắp; Cảnh báo khi tỷ lệ đầy ≥ 75% hoặc biên HGL < 0,5 m; các trường hợp còn lại là Bình thường. Cột `Depth (Surcharged)` trong dữ liệu nguồn có cùng giá trị 0,5 m cho toàn bộ 139 nút nên không được dùng riêng để phân loại.
